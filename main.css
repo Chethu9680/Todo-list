@@ -52,7 +52,7 @@ nav .navbar .menu {
 
 .landing img {
     width: 100%;
-    height: 600px;
+    height: 800px;
     object-fit: cover;
 }
 
@@ -75,6 +75,8 @@ nav .navbar .menu {
     border-radius: 10px;
     background: #f9f9f9;
     overflow-y: auto;
+    margin-right: 20px;
+    
 }
 .task-block ul, .task-block1 ul{
     list-style: none;
@@ -314,7 +316,9 @@ span {
     }
   }
 
-
+  .contact_us{
+      margin-bottom: 100px;
+}
 
   .contact_us * {
     font-family: Nunito, sans-serif;
@@ -352,14 +356,15 @@ span {
   }
   
   .contact_us .responsive-cell-block {
-    min-height: 75px;
+    min-height: 30px;
+    width: 600px;
   }
   
   .contact_us .responsive-container-block {
-    min-height: 75px;
+    min-height: 30px;
     height: fit-content;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -373,7 +378,7 @@ span {
   }
   
   .contact_us .responsive-container-block.bigContainer {
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-left: 30px;
