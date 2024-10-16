@@ -140,3 +140,11 @@ window.addEventListener('click', function(e) {
     }
 });
 
+function contact(){
+    alert("The query has been sent to the admin \n Contact admin for more information");
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('subject').value = '';
+    document.getElementById('message').value = '';
+}
